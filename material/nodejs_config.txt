@@ -1,0 +1,11 @@
+
+C:\Users\Erlinda>node -v
+v10.16.3
+
+C:\Users\Erlinda>node
+> 2+2
+4
+> console.log("hola")
+hola
+cd C:\Users\Erlinda\Documents\cursoWebSoftAcademy\programacion\nodejs
+node holaMundo.js

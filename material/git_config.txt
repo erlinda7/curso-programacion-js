@@ -1,0 +1,12 @@
+Erlinda@ERLINDA MINGW64 ~
+$ git --version
+git version 2.23.0.windows.1
+
+Erlinda@ERLINDA MINGW64 ~
+$ git config --global user.name "erlinda"
+
+Erlinda@ERLINDA MINGW64 ~
+$ git config --global user.email chambimanzanoerlinda@gamil.com
+
+Erlinda@ERLINDA MINGW64 ~
+$ git config --global user.editor notepad.exe

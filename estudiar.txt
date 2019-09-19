@@ -1,0 +1,11 @@
+closures
+callback
+apread operator
+
+forEach
+
+prototipos
+
+
+
+
