@@ -11,5 +11,8 @@ asignacion de funciones a una variable
 eventos
 
 
+import export en typescript
+
+
 
 

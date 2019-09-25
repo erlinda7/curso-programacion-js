@@ -29,7 +29,7 @@ export class Bar{
         return this.nombre;
     }
 
-    public setCapacidad(capacidad: number) {
+    public setCapacidad(capacidad: number):void {
         this.capacidad = capacidad;
     }
 
@@ -47,7 +47,7 @@ export class BarMan{
         this.apellido=apellido;
     }
 
-    public setNombre(nombre: string) {
+    public setNombre(nombre: string):void {
         this.nombre = nombre;
     }
 
@@ -55,7 +55,7 @@ export class BarMan{
         return this.nombre;
     }
 
-    public setApellido(apellido: string) {
+    public setApellido(apellido: string):void {
         this.apellido = apellido;
     }
 
@@ -79,21 +79,21 @@ export class Tragos{
     public getNombre(): string {
         return this.nombre;
     }
-    public setNombre(nombre: string) {
+    public setNombre(nombre: string):void {
         this.nombre = nombre;
     }
 
     public getColor(): string {
         return this.color;
     }
-    public setColor(color: string) {
+    public setColor(color: string):void {
         this.color = color;
     }
 
     public getCantidad(): number {
         return this.cantidad;
     }
-    public setCantidad(cantidad: number) {
+    public setCantidad(cantidad: number):void {
         this.cantidad = cantidad;
     }
 }
