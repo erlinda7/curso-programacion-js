@@ -7,5 +7,9 @@ forEach
 prototipos
 
 
+asignacion de funciones a una variable
+eventos
+
+
 
 
