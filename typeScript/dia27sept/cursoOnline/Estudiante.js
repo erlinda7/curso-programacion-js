@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var Persona_1 = require("./cursoOnline/Persona");
+var Persona_1 = require("./Persona");
 var Estudiante = /** @class */ (function (_super) {
     __extends(Estudiante, _super);
     function Estudiante(n, a, c, d) {

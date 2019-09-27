@@ -1,5 +1,5 @@
-import { Persona } from "./cursoOnline/Persona";
-import { Direccion } from "./cursoOnline/Direccion";
+import { Persona } from "./Persona";
+import { Direccion } from "./Direccion";
 
 export class Estudiante extends Persona{
     constructor(n:string, a:string, c:string,d:Direccion[]){

@@ -1,5 +1,3 @@
-
-
 /**
  * Se necesita resolver el siguiente problema usando programacion orientada a objetos.
  * Se desea realizar un sistema de ventas de cursos online como por ejemplo Udemy, platzi,etc
@@ -11,22 +9,21 @@
  * una direccion esta compuesta por la siguiente informacion: ciudad, barrio, calle, 
  * Para los profesores en particular se necesita guardar su profesion
  */
-
-
 import { Docente } from "./Docente";
 import { Direccion } from "./Direccion";
-import { Estudiante } from "../Estudiante";
+import { Estudiante } from "./Estudiante";
 import { Curso } from "./Curso";
 import { CompraCurso } from "./CompraCurso";
 
- //docente
- let dir1Docente:Direccion=new Direccion('Cochabamba' ,'Calama','heroinas');
- let dir2Docente:Direccion=new Direccion('Cochabamba' ,'villa pagador','25 de mayo');
- let direccionD:Direccion[]= [dir1Docente,dir2Docente];
 
- let docente:Docente=new Docente('Angel','Antezana','anghel@gamil.com',direccionD,'Ingeniero');
- console.log('\n\nDocente:')
- console.log(docente);
+//docente
+let dir1Docente:Direccion=new Direccion('Cochabamba' ,'Calama','heroinas');
+let dir2Docente:Direccion=new Direccion('Cochabamba' ,'villa pagador','25 de mayo');
+let direccionD:Direccion[]= [dir1Docente,dir2Docente];
+
+let docente:Docente=new Docente('Angel','Antezana','anghel@gamil.com',direccionD,'Ingeniero');
+console.log('\n\nDocente:')
+console.log(docente);
 
 
 
@@ -47,6 +44,3 @@ console.log(curso1);
 let compraCurso:CompraCurso= new CompraCurso(curso1,estudiante1,'34-09-19');
 console.log('\n\nCompra curso')
 console.log(compraCurso);
-
-
-

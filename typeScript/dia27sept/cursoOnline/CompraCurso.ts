@@ -1,5 +1,5 @@
 import { Curso } from "./Curso";
-import { Estudiante } from "../Estudiante";
+import { Estudiante } from "./Estudiante";
 
 export class CompraCurso{
     private curso: Curso;

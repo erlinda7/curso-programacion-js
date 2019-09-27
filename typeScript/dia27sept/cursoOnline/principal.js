@@ -1,4 +1,5 @@
 "use strict";
+exports.__esModule = true;
 /**
  * Se necesita resolver el siguiente problema usando programacion orientada a objetos.
  * Se desea realizar un sistema de ventas de cursos online como por ejemplo Udemy, platzi,etc
@@ -10,10 +11,9 @@
  * una direccion esta compuesta por la siguiente informacion: ciudad, barrio, calle,
  * Para los profesores en particular se necesita guardar su profesion
  */
-exports.__esModule = true;
 var Docente_1 = require("./Docente");
 var Direccion_1 = require("./Direccion");
-var Estudiante_1 = require("../Estudiante");
+var Estudiante_1 = require("./Estudiante");
 var Curso_1 = require("./Curso");
 var CompraCurso_1 = require("./CompraCurso");
 //docente
