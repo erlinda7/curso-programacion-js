@@ -1,0 +1,11 @@
+Resuelva el siguiente problema usando programacion orientaa a bojetos y herencia: Se necesita implementar
+un sistema para la venta de peliculas en formatos cd, dvd, bru-ray. donde debe estar involucrado el cliente.
+Se debe guarda cds, dvds, blurays en una misma lista.
+Se debe poder calcular el monto total percibido por la venta de dvds.
+Se debe poder calcular el monto total percibido por la venta de cds
+Se debe poder calcular el monto total percibido por la venta de  blu-rays
+
+
+Se debe poder calcular el monto total percibido por la venta de dvds, cds y blurays
+
+los 3 tipos de discos deben guardar en una lista

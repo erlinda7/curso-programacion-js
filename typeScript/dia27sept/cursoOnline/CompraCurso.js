@@ -6,6 +6,9 @@ var CompraCurso = /** @class */ (function () {
         this.estudiante = e;
         this.fecha = fe;
     }
+    CompraCurso.prototype.getCurso = function () {
+        return this.curso;
+    };
     return CompraCurso;
 }());
 exports.CompraCurso = CompraCurso;

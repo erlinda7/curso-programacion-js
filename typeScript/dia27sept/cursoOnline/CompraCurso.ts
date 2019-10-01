@@ -11,4 +11,8 @@ export class CompraCurso{
         this.estudiante=e;
         this.fecha=fe;
     }
+
+    public getCurso(){
+        return this.curso;
+    }
 }

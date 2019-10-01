@@ -1,0 +1,35 @@
+Ejercicios
+
+1)	Crea una clase Cuenta con los métodos Ingreso, reintegro y transferencia. La clase contendrá un constructor por 	defecto,  un constructor con parámetros un constructor copia y los metodos getters y setters.
+
+2)	 Crea una clase Contador con los métodos para incrementar y decrementar el contador. La  clase contendrá un 	constructor copia  y los métodos getters y setters.
+
+
+3)	Crea una clase libro con los métodos préstamo, devolución y toString. La clase contendrá un constructor por 	defecto, un constructor de parámetros y los métodos getters y setters.
+
+4)	Crear una clase Calculadora con métodos  para sumar, restar, multiplicar y dividir.
+
+
+
+
+Ejercicios
+
+ * Se necesita resolver el siguiente problema usando programacion orientada a objetos.
+   Se desea realizar un sistema de ventas de cursos online como por ejemplo Udemy, platzi,etc
+   PAra ello se necesita interactuar con estudiantes,
+   profesores de los mismos se necesita registrar su inforamcion basica como nombre, apellido,correo,    direccion;
+   por otra parte swe necesita interactuar con con los cursos que se impartiran de los mismos se necesita
+   guardar su precio, nombre, descripcion; finalmente se desea guardar el registro de los estudiantes 
+   que compraron algun curso. Un estudiante o profesor puede tener una o mas direcciones, al mismo tiempo 
+   una direccion esta compuesta por la siguiente informacion: ciudad, barrio, calle, 
+   Para los profesores en particular se necesita guardar su profesion
+ 
+	- Agregar un método a la clase docente y estudiante que le permita agregar una direccion, la nueva dirección              debe agregarse  como un elemento mas sobre las direcciones ya existentes.
+
+	- Crear la clase plataformaEducativa, la misma debe tener el nombre de la plataforma educativa, una lista donde 	  se debe guardar el registro de los cursos comprados.
+
+	- La clase PlataformaEducativa debe contener un método que sirva para registrar la venta de un curso, el método 	  debe recibir como argumento(parámetro de entrada). Una instancia de la clase ComprarCurso.
+
+	- Crear un método dentro de la clase PlataformaEducativa  que  retorne el de ingresos percibidos  por la venta 	  de curso online.
+
+* Resuelva el siguiente problema usando programación Orientada objetos y herencia: Se necesita implementar un sistema   para la venta de películas en formatos cd, dvd, blu-ray. Donde debe estar involucrado al cliente. Se debe guardar   cds,  dvds, el monto total percibido por la venta de dvds. Se debe  poder calcular  el  monto total percibido por la   venta de cds. Se debe poder calcular  el monto total percibido por la venta  de blu-rays.  Se debe poder calcular el   monto total  percibido por la venta de cds, dvds y blu-ray. Los 3 tipos de discos deben guardar en una lista

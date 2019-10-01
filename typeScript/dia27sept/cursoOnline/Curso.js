@@ -7,6 +7,9 @@ var Curso = /** @class */ (function () {
         this.descripcion = des;
         this.docente = doc;
     }
+    Curso.prototype.getPrecio = function () {
+        return this.precio;
+    };
     return Curso;
 }());
 exports.Curso = Curso;

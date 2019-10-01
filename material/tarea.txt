@@ -1,0 +1,8 @@
+* agregar un metodo a la clase docente y estudiante que le permita agregar una direccion
+  , la nueva direccion debe agregarse como un elemento mas sobre las direcciones ya existentes
+
+
+* Crear la clase PlataformaEducativa, la misma debe tener el nombre de la plataforma educativa, una lista    donde se debe guardar el registro de los cursos comprados
+
+* La clase PlataformaEducativa debe contener un metodo que sirva para registrar la venta de un curso, el     metodo debe recibir como argumetno(parametro de entrada). una instancia de la clase CompraCurso
+

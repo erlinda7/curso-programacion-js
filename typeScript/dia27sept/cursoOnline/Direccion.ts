@@ -8,4 +8,6 @@ export class Direccion{
         this.barrio=ba;
         this.calle=ca;
     }
+
+    public toS
 }
