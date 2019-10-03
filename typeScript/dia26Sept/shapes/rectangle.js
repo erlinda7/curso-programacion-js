@@ -16,8 +16,8 @@ exports.__esModule = true;
 var FiguraGeometrica_1 = require("./FiguraGeometrica");
 var Rectangle = /** @class */ (function (_super) {
     __extends(Rectangle, _super);
-    function Rectangle(px, py, h, w) {
-        var _this = _super.call(this, px, py) || this;
+    function Rectangle(nombre, px, py, h, w) {
+        var _this = _super.call(this, nombre, px, py) || this;
         _this.heigth = h;
         _this.width = w;
         return _this;
@@ -45,15 +45,3 @@ var Rectangle = /** @class */ (function (_super) {
     return Rectangle;
 }(FiguraGeometrica_1.FiguraGeometrica));
 exports.Rectangle = Rectangle;
-/*
-let rectangle:Rectangle=new Rectangle(4,9,67,89);
-
-console.log(`Rectangulo:
-posicion en x: ${rectangle.getPosX()}
-posicion en y: ${rectangle.getPosY()}
-altura:        ${rectangle.getHeigth()}
-ancho:         ${rectangle.getWidth()}
-area:          ${rectangle.area()}
-perimetro:     ${rectangle.perimetro()}`
-            );
-            */ 

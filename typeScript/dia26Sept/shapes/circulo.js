@@ -16,8 +16,8 @@ exports.__esModule = true;
 var FiguraGeometrica_1 = require("./FiguraGeometrica");
 var Circulo = /** @class */ (function (_super) {
     __extends(Circulo, _super);
-    function Circulo(px, py, r) {
-        var _this = _super.call(this, px, py) || this;
+    function Circulo(nom, px, py, r) {
+        var _this = _super.call(this, nom, px, py) || this;
         _this._radio = r;
         return _this;
     }
@@ -37,5 +37,3 @@ var Circulo = /** @class */ (function (_super) {
     return Circulo;
 }(FiguraGeometrica_1.FiguraGeometrica));
 exports.Circulo = Circulo;
-var circulo = new Circulo(50, 50, 10);
-console.log("Circulo: \nposicion en x: " + circulo.getPosX() + "\nposicion en y: " + circulo.getPosY() + "\nradio:        " + circulo.getRadio() + "\narea:          " + circulo.area() + "\nperimetro:     " + circulo.perimetro());

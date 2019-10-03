@@ -4,8 +4,8 @@ export class Triangulo extends FiguraGeometrica{
     private _base: number;
     private _altura: number;
 
-    public constructor(px:number, py:number, h:number, b:number){
-        super(px,py);
+    public constructor(nombre:string,px:number, py:number, h:number, b:number){
+        super(nombre,px,py);
         this._altura=h;
         this._base=b;
     }
@@ -33,13 +33,3 @@ export class Triangulo extends FiguraGeometrica{
 }
 
 
-let triangulo:Triangulo=new Triangulo(5,8,20,10);
-
-console.log(`Triangulo: 
-posicion en x: ${triangulo.getPosX()}
-posicion en y: ${triangulo.getPosY()}
-altura:        ${triangulo.getBase()}
-ancho:         ${triangulo.getAltura()} 
-area:          ${triangulo.area()}
-perimetro:     ${triangulo.perimetro()}` 
-            );

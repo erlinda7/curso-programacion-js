@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var Triangulo_1 = require("./Triangulo");
+var Rectangle_1 = require("./Rectangle");
+var Cuadrado_1 = require("./Cuadrado");
+var Circulo_1 = require("./Circulo");
+var triangulo = new Triangulo_1.Triangulo('triangulo', 3, 3, 20, 10);
+console.log(triangulo);
+var rectagulo = new Rectangle_1.Rectangle('rectangulo', 4, 5, 20, 30);
+console.log(rectagulo);
+var cuadrado = new Cuadrado_1.Cuadrado('Cuadrado', 4, 4, 20);
+console.log(cuadrado);
+var circulo = new Circulo_1.Circulo('circulo', 6, 6, 20);
+console.log(circulo);

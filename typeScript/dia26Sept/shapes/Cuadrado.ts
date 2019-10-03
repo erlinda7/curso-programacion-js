@@ -3,8 +3,8 @@ import { FiguraGeometrica } from "./FiguraGeometrica";
 export class Cuadrado extends FiguraGeometrica {
     private _lado: number;
 
-    public constructor(px:number,py:number,l:number){
-        super(px,py);
+    public constructor(nombre:string,px:number,py:number,l:number){
+        super(nombre,px,py);
         this._lado=l;
     }
     public getLado(): number {
@@ -23,13 +23,4 @@ export class Cuadrado extends FiguraGeometrica {
     }
 }
 
-let cuadrado:Cuadrado=new Cuadrado(5,5,20);
 
-
-console.log(`Cuadrado: 
-posicion en x: ${cuadrado.getPosX()}
-posicion en y: ${cuadrado.getPosY()}
-lado:        ${cuadrado.getLado()}
-area:          ${cuadrado.area()}
-perimetro:     ${cuadrado.perimetro()}` 
-            );

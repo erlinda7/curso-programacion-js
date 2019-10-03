@@ -16,8 +16,8 @@ exports.__esModule = true;
 var FiguraGeometrica_1 = require("./FiguraGeometrica");
 var Cuadrado = /** @class */ (function (_super) {
     __extends(Cuadrado, _super);
-    function Cuadrado(px, py, l) {
-        var _this = _super.call(this, px, py) || this;
+    function Cuadrado(nombre, px, py, l) {
+        var _this = _super.call(this, nombre, px, py) || this;
         _this._lado = l;
         return _this;
     }
@@ -28,7 +28,7 @@ var Cuadrado = /** @class */ (function (_super) {
         this._lado = value;
     };
     Cuadrado.prototype.area = function () {
-        return (2 * this._lado);
+        return (this._lado * this._lado);
     };
     Cuadrado.prototype.perimetro = function () {
         return (4 * this._lado);
@@ -36,5 +36,3 @@ var Cuadrado = /** @class */ (function (_super) {
     return Cuadrado;
 }(FiguraGeometrica_1.FiguraGeometrica));
 exports.Cuadrado = Cuadrado;
-var cuadrado = new Cuadrado(5, 5, 20);
-console.log("Cuadrado: \nposicion en x: " + cuadrado.getPosX() + "\nposicion en y: " + cuadrado.getPosY() + "\nlado:        " + cuadrado.getLado() + "\narea:          " + cuadrado.area() + "\nperimetro:     " + cuadrado.perimetro());

@@ -5,8 +5,8 @@ export class Rectangle extends FiguraGeometrica{
     private width: number;
 
 
-    public constructor(px:number, py:number, h:number, w:number){
-        super(px,py);
+    public constructor(nombre:string,px:number, py:number, h:number, w:number){
+        super(nombre,px,py);
         this.heigth=h;
         this.width=w;
     }
@@ -35,15 +35,3 @@ export class Rectangle extends FiguraGeometrica{
     }
 }
 
-/*
-let rectangle:Rectangle=new Rectangle(4,9,67,89);
-
-console.log(`Rectangulo: 
-posicion en x: ${rectangle.getPosX()}
-posicion en y: ${rectangle.getPosY()}
-altura:        ${rectangle.getHeigth()}
-ancho:         ${rectangle.getWidth()} 
-area:          ${rectangle.area()}
-perimetro:     ${rectangle.perimetro()}` 
-            );
-            */

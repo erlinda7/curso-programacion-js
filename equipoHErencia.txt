@@ -1,0 +1,25 @@
+Clase miembro : nombre, edad
+
+Clase Jugador:posicion string
+
+clase coach: experiencia
+
+clase Administrador: cargo
+
+
+
+las instancias de jugador, coach, admnistrador crear como instancias miembros
+
+let jugador1: Miembro=new Jugador('jose',22 ,'5 años');
+
+
+
+
+lista de miembros [] 
+
+
+de la lista de miembros sacar lista de jugadores, lista de administradores, lista de coach
+
+para sacar de las lista de miembros usar instanceOf 
+
+y como todos son miembros realizar casting usando "as"

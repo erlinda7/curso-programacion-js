@@ -33,3 +33,7 @@ Ejercicios
 	- Crear un método dentro de la clase PlataformaEducativa  que  retorne el de ingresos percibidos  por la venta 	  de curso online.
 
 * Resuelva el siguiente problema usando programación Orientada objetos y herencia: Se necesita implementar un sistema   para la venta de películas en formatos cd, dvd, blu-ray. Donde debe estar involucrado al cliente. Se debe guardar   cds,  dvds, el monto total percibido por la venta de dvds. Se debe  poder calcular  el  monto total percibido por la   venta de cds. Se debe poder calcular  el monto total percibido por la venta  de blu-rays.  Se debe poder calcular el   monto total  percibido por la venta de cds, dvds y blu-ray. Los 3 tipos de discos deben guardar en una lista
+
+
+
+84b0385ec64d5b14eb65f9a3c0fa5a24

@@ -16,8 +16,8 @@ exports.__esModule = true;
 var FiguraGeometrica_1 = require("./FiguraGeometrica");
 var Triangulo = /** @class */ (function (_super) {
     __extends(Triangulo, _super);
-    function Triangulo(px, py, h, b) {
-        var _this = _super.call(this, px, py) || this;
+    function Triangulo(nombre, px, py, h, b) {
+        var _this = _super.call(this, nombre, px, py) || this;
         _this._altura = h;
         _this._base = b;
         return _this;
@@ -44,5 +44,3 @@ var Triangulo = /** @class */ (function (_super) {
     return Triangulo;
 }(FiguraGeometrica_1.FiguraGeometrica));
 exports.Triangulo = Triangulo;
-var triangulo = new Triangulo(5, 8, 20, 10);
-console.log("Triangulo: \nposicion en x: " + triangulo.getPosX() + "\nposicion en y: " + triangulo.getPosY() + "\naltura:        " + triangulo.getBase() + "\nancho:         " + triangulo.getAltura() + " \narea:          " + triangulo.area() + "\nperimetro:     " + triangulo.perimetro());
