@@ -1,16 +1,12 @@
 export class Edificio{
     private ascensor:boolean;
+    
 
-    constructor(as:boolean){
+    constructor(as:boolean)
+    {
         this.ascensor=as;
     }
-    public getAscensor(){
-        return this.ascensor;
-    }
-
-    public setAscensor(a:boolean):void{
-        this.ascensor=a;
-    }
+  
 }
 
 export class Hotel extends Edificio{
